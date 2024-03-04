@@ -1,4 +1,4 @@
-namespace pokedex.Models;
+namespace Pokedex.Models;
 
 public class ErrorViewModel
 {

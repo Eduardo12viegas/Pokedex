@@ -1,8 +1,10 @@
 using System.Diagnostics;
+using System.Reflection.Metadata.Ecma335;
+using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
-using pokedex.Models;
+using Pokedex.Models;
 
-namespace pokedex.Controllers;
+namespace Pokedex.Controllers;
 
 public class HomeController : Controller
 {
@@ -15,10 +17,13 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        Pokemon pikachu = new();
-        pikachu.Numero = 25;
-        pikachu.Nome = "pikachu";
-        return View(pikachu);
+        List<Pokemon> pokemons = [];
+        using (StreamReader leitor = new("Data\\pokemon.jason"))
+        {
+            string dados = leitor.ReadToEnd();
+            pokemons = JsonSerializer.Deserialize<List<Pokemon>>(dados);
+        }
+        return View(pokemons);
     }
 
     public IActionResult Privacy()
