@@ -1,106 +1,124 @@
 ﻿[
-  {
-      "Numero": 1,
-      "Nome": "Axolote",
-      "Descricao": "Originados do México, os axolotes são capazes de regenerar membros inteiros e até mesmo órgãos do sistema nervoso, a dieta deles consiste em peixes pequenos, moluscos, artrópodes, ovos de salmão, zooplâncton ou larvas terrestres.",
-      "Especie": "Ambystomatidae",
-      "Tipo": [ "Aquatico" ] ,
-      "Altura": 37.5,
-      "Peso": 175,
-      "Imagem": "\\img\\pokemons\\001.png"
-    },
-    {
-      "Numero": 2,
-      "Nome": "Salamandra atra",
-      "Descricao": "Possui um coloração negra brilhante. Pode ser encontrada nos Alpes Centrais e Orientais, em altitudes acima dos 700 metros.",
-      "Especie": "Seed",
-      "Tipo": [ "Terrestre" ],
-      "Altura": 11.5,
-      "Peso": 54,
-      "Imagem": "\\img\\pokemons\\002.png"
-    },
-    {
-      "Numero": 3,
-      "Nome": "Salamandra de cauda azul",
-      "Descricao": "Essa salamandra é encontrada nas Ilhas Maurício e tem hábitos tanto noturnos quanto diurnos. Apenas os machos apresentam essa coloração chamativa, diferente de outras salamandras, essas podem ser bem agressivas contra os membros de sua própria espécie.",
-      "Especie": "Seed",
-      "Tipo": [ "Terrestre" ],
-      "Altura": 12,
-      "Peso": 56,
-      "Imagem": "\\img\\pokemons\\003.png"
-    },
-    {
-    "Numero": 4,
-      "Nome": "salamandra-de-costelas-salientes",
-      "Descricao": "O aspeto desta salamandra parece primitivo ou um tanto grotesco. No geral, é aplanada, com cabeça grande, larga e contornos arredondados.",
-      "Especie": "Seed",
-      "Tipo": [ "Terrestre" ],
-      "Altura": 12,
-      "Peso": 56,
-      "Imagem": "\\img\\pokemons\\004.png"
-    },
-    {
-      "Numero": 5,
-      "Nome": "Salamandra de duas listras",
-      "Descricao": "As salamandras de duas listras são principalmente noturnas e se alimentam de insetos, minhocas e outros pequenos animais, elas passam a maior parte do tempo em terra, mas retornam à água para depositar seus ovos.",
-      "Especie": "Seed",
-      "Tipo": [ "Terrestre" ],
-      "Altura": 23,
-      "Peso": 18,
-      "Imagem": "\\img\\pokemons\\005.png"
-    },
-    {
-      "Numero": 6,
-      "Nome": "Salamandra do fogo",
-      "Descricao": "A salamandra-de-fogo, salamandra-comum ou salamandra-de-pintas-amarelas é característica por sua cor negra com manchas amarelas.",
-      "Especie": "Lizard",
-      "Tipo": [ "Terrestre" ],
-      "Altura": 27.5,
-      "Peso": 19,
-      "Imagem": "\\img\\pokemons\\006.png"
-    },
-    {
-      "Numero": 7,
-      "Nome": "Salamandra gigante da China",
-      "Descricao": "É a maior espécie de salamandra e a maior de todas as espécies de anfíbios existentes no mundo atualmente.",
-      "Especie": "Flame",
-      "Tipo": [ "Aquatico" ],
-      "Altura": 120,
-      "Peso": 27000,
-      "Imagem": "\\img\\pokemons\\007.png"
-    },
-    {
-      "Numero": 8,
-      "Nome": "Salamandra Imitadora",
-      "Descricao": "O nome “imitadora” se refere à sua habilidade de se camuflar e se misturar com o ambiente. Essas salamandras têm uma aparência discreta e podem ser difíceis de detectar, o que as torna verdadeiras mestras da imitação em seu habitat natural.",
-      "Especie": "Flame",
-      "Tipo": [ "Terrestre" ],
-      "Altura": 20,
-      "Peso": 14,
-      "Imagem": "\\img\\pokemons\\008.png"
-    },
-     {
-      "Numero": 9,
-      "Nome": "Salamandra-lusitânica",
-      "Descricao": "A salamandra-lusitânica, também conhecida como saramântiga, é um anfíbio endêmico do noroeste da Península Ibérica, essas salamandras possuem uma cauda que pode atingir dois terços do comprimento do corpo.",
-      "Especie": "Flame",
-      "Tipo": [ "Terrestre" ],
-      "Altura": 16,
-      "Peso": 21,
-      "Imagem": "\\img\\pokemons\\009.png"
-    },
-    {
-      "Numero": 10,
-      "Nome": "Salamandra maravilha",
-      "Descricao": "São encontradas nas áreas desérticas do Oriente Médio e possuem pele muito delicada, encostar nelas pode fazer com que elas, literalmente, percam pedaços de pele.",
-  "Especie": "Flame",
-   "Tipo": [ "Terrestre" ],
-   "Altura": 15,
-   "Peso": 16,
-   "Imagem": "\\img\\pokemons\\010.png"
-    }
-  ]
-  
-  
-  
-  
+{
+  "Numero": 1,
+  "Nome": "Axolote",
+  "Descricao": "Originados do México, os axolotes são capazes de regenerar membros inteiros e até mesmo órgãos do sistema nervoso, a dieta deles consiste em peixes pequenos, moluscos, artrópodes, ovos de salmão, zooplâncton ou larvas terrestres.",
+  "Especie": "Caudata",
+  "Tipo": [ "Aquatico" ],
+  "Altura": 37.5,
+  "Peso": 175,
+  "Imagem": "\\img\\pokemons\\001.png"
+},
+{
+  "Numero": 2,
+  "Nome": "Salamandra atra",
+  "Descricao": "Possui um coloração negra brilhante. Pode ser encontrada nos Alpes Centrais e Orientais, em altitudes acima dos 700 metros.",
+  "Especie": "Caudata",
+  "Tipo": [ "Terrestre" ],
+  "Altura": 11.5,
+  "Peso": 0,
+  "Imagem": "\\img\\pokemons\\002.png"
+},
+{
+  "Numero": 3,
+  "Nome": "Salamandra de cauda azul",
+  "Descricao": "Essa salamandra é encontrada nas Ilhas Maurício e tem hábitos tanto noturnos quanto diurnos. Apenas os machos apresentam essa coloração chamativa, diferente de outras salamandras, essas podem ser bem agressivas contra os membros de sua própria espécie.",
+  "Especie": "Caudata",
+  "Tipo": [ "Terrestre" ],
+  "Altura": 0,
+  "Peso": 0,
+  "Imagem": "\\img\\pokemons\\003.png"
+},
+{
+"Numero": 4,
+  "Nome": "salamandra-de-costelas-salientes",
+  "Descricao": "O aspeto desta salamandra parece primitivo ou um tanto grotesco. No geral, é aplanada, com cabeça grande, larga e contornos arredondados.",
+  "Especie": "Caudata",
+  "Tipo": [ "Terrestre" ],
+  "Altura": 20,
+  "Peso": 56,
+  "Imagem": "\\img\\pokemons\\004.png"
+},
+{
+  "Numero": 5,
+  "Nome": "Salamandra de duas listras",
+  "Descricao": "As salamandras de duas listras são principalmente noturnas e se alimentam de insetos, minhocas e outros pequenos animais, elas passam a maior parte do tempo em terra, mas retornam à água para depositar seus ovos.",
+  "Especie": "Caudata",
+  "Tipo": [ "Terrestre" ],
+  "Altura": 0,
+  "Peso": 0,
+  "Imagem": "\\img\\pokemons\\005.png"
+},
+{
+  "Numero": 6,
+  "Nome": "Salamandra do fogo",
+  "Descricao": "A salamandra-de-fogo, salamandra-comum ou salamandra-de-pintas-amarelas é característica por sua cor negra com manchas amarelas.",
+  "Especie": "Caudata",
+  "Tipo": [ "Terrestre" ],
+  "Altura": 27.5,
+  "Peso": 19,
+  "Imagem": "\\img\\pokemons\\006.png"
+},
+{
+  "Numero": 7,
+  "Nome": "Salamandra gigante da China",
+  "Descricao": "É a maior espécie de salamandra e a maior de todas as espécies de anfíbios existentes no mundo atualmente.",
+  "Especie": "Caudata",
+  "Tipo": [ "Aquatico" ],
+  "Altura": 120,
+  "Peso": 27000,
+  "Imagem": "\\img\\pokemons\\007.png"
+},
+{
+  "Numero": 8,
+  "Nome": "Salamandra Imitadora",
+  "Descricao": "O nome “imitadora” se refere à sua habilidade de se camuflar e se misturar com o ambiente. Essas salamandras têm uma aparência discreta e podem ser difíceis de detectar, o que as torna verdadeiras mestras da imitação em seu habitat natural.",
+  "Especie": "Caudata",
+  "Tipo": [ "Terrestre" ],
+  "Altura": 0,
+  "Peso": 0,
+  "Imagem": "\\img\\pokemons\\008.png"
+},
+ {
+  "Numero": 9,
+  "Nome": "Salamandra-lusitânica",
+  "Descricao": "A salamandra-lusitânica, também conhecida como saramântiga, é um anfíbio endêmico do noroeste da Península Ibérica, essas salamandras possuem uma cauda que pode atingir dois terços do comprimento do corpo.",
+  "Especie": "Caudata",
+  "Tipo": [ "Terrestre" ],
+  "Altura": 1.35,
+  "Peso": 2,
+  "Imagem": "\\img\\pokemons\\009.png"
+},
+{
+  "Numero": 10,
+  "Nome": "Salamandra maravilha",
+  "Descricao": "São encontradas nas áreas desérticas do Oriente Médio e possuem pele muito delicada, encostar nelas pode fazer com que elas, literalmente, percam pedaços de pele.",
+"Especie": "Caudata",
+"Tipo": [ "Terrestre" ],
+"Altura": 0,
+"Peso": 0,
+"Imagem": "\\img\\pokemons\\010.png"
+},
+{
+  "Numero": 11,
+  "Nome": "Salamandra pintada",
+  "Descricao": "Estão presentes em florestas de planaltos e regiões montanhosas, mas são mais comuns em florestas úmidas próximas a planícies aluviais.",
+"Especie": "Caudata",
+"Tipo": [ "Terrestre" ],
+"Altura": 17.8,
+"Peso": 0,
+"Imagem": "\\img\\pokemons\\011.png"
+},
+{
+  "Numero": 12,
+  "Nome": "Salamandra tigre",
+  "Descricao": "Geralmente são de coloração marrom com listras ou manchas amarelas-vivas ao longo do corpo. Sua cor de base, entretanto, também pode ser esverdeada ou cinza e suas marcações podem ser pontos amarelos ou manchas marrons.",
+"Especie": "Caudata",
+"Tipo": [ "Terrestre" ],
+"Altura": 26.5,
+"Peso": 124,
+"Imagem": "\\img\\pokemons\\012.png"
+}
+]
+
+

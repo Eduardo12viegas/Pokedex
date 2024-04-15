@@ -43,8 +43,8 @@
 		<div class="col-lg-7 fs-5 mt-4">
 			<p class="mb-3"><strong>Descrição:</strong> @Model.Atual.Descricao</p>
 			<p class="mb-3"><strong>Espécie:</strong> @Model.Atual.Especie</p>
-			<p class="mb-3"><strong>Altura:</strong> @Model.Atual.Altura mts</p>
-			<p class="mb-3"><strong>Peso:</strong> @Model.Atual.Peso kgs</p>
+			<p class="mb-3"><strong>Altura:</strong> @(Model.Atual.Altura == 0 ? "Desconhecido" : Model.Atual.Altura + " cm")</p>
+			<p class="mb-3"><strong>Peso:</strong> @(Model.Atual.Peso == 0 ? "Desconhecido" : Model.Atual.Peso + " gramas")</p>
 			<p class="fw-bold">Tipo</p>
 			<div class="btn-group">
 				@foreach (var tipo in Model.Atual.Tipo)
